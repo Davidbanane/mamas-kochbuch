@@ -3,81 +3,53 @@ import random
 import json
 import os
 
-# --- 1. Funktionen zum Laden und Speichern der Daten ---
+# --- Konfiguration der Seite ---
+st.set_page_config(page_title="Mamas Kochbuch", page_icon="🍳")
+
+# --- Daten laden ---
 DATEI_NAME = "gerichte.json"
 
 def lade_gerichte():
     if not os.path.exists(DATEI_NAME):
-        return [] # Leere Liste zurückgeben, falls Datei nicht existiert
+        return []
     with open(DATEI_NAME, "r", encoding="utf-8") as f:
         return json.load(f)
 
-def speichere_gerichte(gerichte_liste):
-    with open(DATEI_NAME, "w", encoding="utf-8") as f:
-        json.dump(gerichte_liste, f, ensure_ascii=False, indent=4)
-
-# --- 2. App Layout und Logik ---
-
+# --- Hauptbereich der App ---
 st.title("🍳 Mamas Koch-Ideen")
+st.write("Lass den Zufall entscheiden, was es heute gibt!")
 
-# Daten laden
+# Gerichte laden
 gerichte = lade_gerichte()
 
-# Wir nutzen Tabs für eine saubere Übersicht
-tab1, tab2, tab3 = st.tabs(["🎲 Was kochen?", "➕ Neu", "🗑️ Entfernen"])
-
-# TAB 1: ZUFALLSGERICHT
-with tab1:
-    st.header("Mir fällt nichts ein...")
-    if st.button("Schlag mir was vor!", type="primary"):
-        if gerichte:
-            vorschlag = random.choice(gerichte)
-            st.success(f"Wie wäre es heute mit: **{vorschlag}**? 😋")
-            st.balloons() # <-- NEU: Lässt Luftballons steigen (visueller Effekt)
-            
-            # NEU: Ein Link zum Rezept
-            # Wir bauen eine Google-Such-URL zusammen
-            such_url = f"https://www.google.com/search?q=Rezept+{vorschlag.replace(' ', '+')}"
-            st.link_button("Rezept im Internet suchen 🔍", such_url)
-            
-        else:
-            st.warning("Die Liste ist noch leer!")
-
-# TAB 2: GERICHT HINZUFÜGEN
-with tab2:
-    st.header("Neues Lieblingsgericht hinzufügen")
-    neues_gericht = st.text_input("Name des Gerichts:")
-    
-    if st.button("Speichern"):
-        # Korrektur: Hier stand vorher fälschlicherweise "new_gericht"
-        if neues_gericht and neues_gericht not in gerichte:
-            gerichte.append(neues_gericht)
-            speichere_gerichte(gerichte)
-            st.success(f"'{neues_gericht}' wurde hinzugefügt!")
-            st.rerun() # Seite neu laden, um Liste zu aktualisieren
-        elif neues_gericht in gerichte:
-            st.error("Das Gericht steht schon auf der Liste.")
-        else:
-            st.error("Bitte gib einen Namen ein.")
-
-# TAB 3: GERICHTE LÖSCHEN
-with tab3:
-    st.header("Gericht von der Liste streichen")
-    if gerichte:
-        # Ein Dropdown Menü zum Auswählen
-        zu_loeschen = st.selectbox("Welches Gericht soll weg?", gerichte)
+if not gerichte:
+    st.error("Hoppla! Die Liste 'gerichte.json' wurde nicht gefunden oder ist leer.")
+else:
+    # Der große Button
+    st.divider()
+    if st.button("🎲 Was soll ich heute kochen?", type="primary", use_container_width=True):
         
-        if st.button("Löschen"):
-            gerichte.remove(zu_loeschen)
-            speichere_gerichte(gerichte)
-            st.success(f"'{zu_loeschen}' wurde gelöscht.")
-            st.rerun()
-    else:
-        st.info("Keine Gerichte zum Löschen vorhanden.")
+        # 1. Zufälliges Gericht wählen
+        vorschlag = random.choice(gerichte)
+        
+        # 3. Das Gericht groß anzeigen
+        st.markdown(f"<h2 style='text-align: center; color: #2e7d32;'>{vorschlag}</h2>", unsafe_allow_html=True)
+        st.write("") # Kleiner Abstand
+        
+        # 4. Der Google-Rezept Link
+        # Wir bauen den Link so: https://www.google.com/search?q=Rezept+Wiener+Schnitzel...
+        such_begriff = f"Rezept {vorschlag}"
+        google_link = f"https://www.google.com/search?q={such_begriff.replace(' ', '+')}"
+        
+        # Button zentriert anzeigen (mit Spalten-Trick)
+        col1, col2, col3 = st.columns([1,2,1])
+        with col2:
+            st.link_button(f"🔍 Rezept für '{vorschlag}' suchen", google_link, use_container_width=True)
 
-# Unten auf der Seite die komplette Liste anzeigen (optional)
-st.divider()
-st.caption(f"Aktuell sind {len(gerichte)} Gerichte in der Datenbank.")
-with st.expander("Alle Gerichte ansehen"):
-    for gericht in sorted(gerichte):
-        st.write(f"- {gericht}")
+    st.divider()
+
+    # --- Liste aller Gerichte (Nur Lesen) ---
+    with st.expander(f"📚 Alle {len(gerichte)} Gerichte ansehen"):
+        # Wir sortieren die Liste alphabetisch für bessere Übersicht
+        for gericht in sorted(gerichte):
+            st.write(f"• {gericht}")
