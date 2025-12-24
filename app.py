@@ -33,10 +33,15 @@ with tab1:
         if gerichte:
             vorschlag = random.choice(gerichte)
             st.success(f"Wie wäre es heute mit: **{vorschlag}**? 😋")
-            # Bild passend zum Essen anzeigen (Optionaler Platzhalter)
-            # st.image(f"https://source.unsplash.com/400x300/?{vorschlag}") 
+            st.balloons() # <-- NEU: Lässt Luftballons steigen (visueller Effekt)
+            
+            # NEU: Ein Link zum Rezept
+            # Wir bauen eine Google-Such-URL zusammen
+            such_url = f"https://www.google.com/search?q=Rezept+{vorschlag.replace(' ', '+')}"
+            st.link_button("Rezept im Internet suchen 🔍", such_url)
+            
         else:
-            st.warning("Die Liste ist noch leer! Füge erst Gerichte hinzu.")
+            st.warning("Die Liste ist noch leer!")
 
 # TAB 2: GERICHT HINZUFÜGEN
 with tab2:
