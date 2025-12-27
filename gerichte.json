@@ -1,172 +1,1192 @@
 [
-    "Wiener Schnitzel vom Kalb mit Petersilienkartoffeln",
-    "Wiener Schnitzel vom Schwein mit Kartoffelsalat",
-    "Surschnitzel mit Reis und Preiselbeeren",
-    "Cordon Bleu mit Pommes Frites",
-    "Puten Cordon Bleu mit Reis",
-    "Bauern Cordon Bleu (gefüllt mit Speck, Zwiebel, Käse) mit Bratkartoffeln",
-    "Naturschnitzel mit Reis und Saft",
-    "Rahmschnitzel mit Spätzle",
-    "Champignonschnitzel mit Reis",
-    "Jägerschnitzel mit Teigwaren",
-    "Zigeunerschnitzel mit Pommes",
-    "Pariser Schnitzel (nur Ei-Mehl-Panier) mit Risi-Bisi",
-    "Münchner Schnitzel (Senf-Kren-Panier) mit Kartoffelsalat",
-    "Piccata Milanese mit Spaghetti und Tomatensauce",
-    "Schweinsbraten mit Semmelknödel und Sauerkraut",
-    "Kümmelbraten mit Serviettenknödel und warmem Krautsalat",
-    "Surbraten mit Kartoffelknödel",
-    "Schopfbraten mit Bratkartoffeln",
-    "Faschierter Braten mit Kartoffelpüree und Röstzwiebeln",
-    "Stefaniebraten (mit Ei und Gurkerl gefüllt) mit Püree",
-    "Geselchtes mit Sauerkraut und Knödel",
-    "Teilsames mit Linsen und Semmelknödel",
-    "Bauerngeselchtes mit Grießknödel",
-    "Zwiebelrostbraten mit Braterdäpfeln",
-    "Vanillerostbraten (mit Knoblauch) mit Nudeln",
-    "Esterhazy-Rostbraten mit Serviettenknödel",
-    "Girardi-Rostbraten mit Kroketten",
-    "Rindsrouladen mit Hörnchen",
-    "Tafelspitz mit Röstkartoffeln, Spinat und Semmelkren",
-    "Schulterscherzel mit Wurzelsauce und Semmelknödel",
-    "Wurzelfleisch vom Schwein mit Kren und Salzkartoffeln",
-    "Krenfleisch mit Semmelknödel",
-    "Altwiener Saftgulasch mit Nockerln",
-    "Fiakergulasch (mit Würstel, Spiegelei und Gurkerl) mit Semmelknödel",
-    "Rindsgulasch mit Kaisersemmel",
-    "Szegediner Krautfleisch mit Salzkartoffeln",
-    "Kartoffelgulasch mit Dürre oder Frankfurter",
-    "Bohnengulasch mit Speck und Gebäck",
-    "Reisfleisch mit Parmesan",
-    "Serbisches Reisfleisch (scharf)",
-    "Paprikahendl mit Spätzle oder Nockerln",
-    "Backhendl mit Kartoffel-Vogerlsalat",
-    "Brathendl im Ganzen mit Reis und Fülle",
-    "Hühnergeschnetzeltes mit Champignons und Reis",
-    "Geschnetzeltes Zürcher Art mit Rösti",
-    "Hühnerfilet in Kürbiskernpanier mit Salat",
-    "Hühnerkeulen aus dem Ofen mit Kartoffelspalten",
-    "Gefüllte Hühnerbrust (Spinat/Schafkäse) mit Reis",
-    "Putenstreifen auf Blattsalat mit Kernöl",
-    "Putenrollbraten mit Reis",
-    "Ente gebraten mit Rotkraut und Kartoffelknödel",
-    "Gansl mit Rotkraut und Semmelknödel",
-    "Hascheehörnchen mit grünem Salat",
-    "Schinkenfleckerl überbacken",
-    "Krautfleckerl mit viel Pfeffer",
-    "Grenadiermarsch (Nudeln, Kartoffeln, Wurst)",
-    "Tiroler Gröstl mit Spiegelei und Krautsalat",
-    "Blunzengröstl mit Kren und Sauerkraut",
-    "Wurstnudeln mit Tomatensauce",
-    "Spaghetti Bolognese (fleischlastig)",
-    "Spaghetti Carbonara (mit Speck und Sahne/Ei)",
-    "Lasagne al Forno (mit viel Hackfleisch)",
-    "Penne mit Schinken-Sahne-Sauce",
-    "Tortellini panna e prosciutto (Schinken-Rahm)",
-    "Maccaroni-Auflauf mit Hackfleisch",
-    "Chili con Carne mit Weißbrot",
-    "Berner Würstel mit Pommes Frites",
-    "Käsekrainer mit Brot, Senf und Kren",
-    "Bratwürstel mit Sauerkraut und Rösterdäpfeln",
-    "Augsburger mit Dillfisolen und Kartoffeln",
-    "Leberkäse (abgebraten) mit Spiegelei und Spinat",
-    "Gebackener Leberkäse mit Kartoffelsalat und Sauce Tartare",
-    "Fleischlaibchen (Frikadellen) mit Kartoffelpüree",
-    "Cevapcici mit Pommes, Zwiebel und Ajvar",
-    "Pljeskavica (gefülltes Hacksteak) mit Djuvec-Reis",
-    "Grillteller (verschiedenes Fleisch) mit Pommes",
-    "Kotelett (Schwein) natur mit Reis und Erbsen",
-    "Kotelett paniert mit Kartoffelsalat",
-    "Ripperl (Spareribs) gebraten mit Bratkartoffeln und Saucen",
-    "Stelze gebraten mit Senf, Kren und Brot",
-    "Grammelknödel mit Sauerkraut",
-    "Fleischknödel mit Sauerkraut",
-    "Selchfleischknödel mit warmem Krautsalat",
-    "Wurstknödel mit grünem Salat",
-    "Innviertler Surspeckknödel mit Sauerkraut",
-    "Leberknödelsuppe (als Hauptspeise, 2-3 Knödel)",
-    "Gulaschsuppe mit Semmel (große Portion)",
-    "Bohnensuppe mit Selchspeck und Brot",
-    "Linseneintopf mit Würstel und Speck",
-    "Kesselgulasch",
-    "Geröstete Leber mit Petersilienkartoffeln",
-    "Gebackene Leber mit Sauce Tartare und Salat",
-    "Beuschel mit Semmelknödel",
-    "Zunge mit Erbsenpüree",
-    "Wildschweinbraten mit Rotkraut und Kroketten",
-    "Hirschgulasch mit Spätzle und Preiselbeeren",
-    "Rehmedaillons mit Pilzsauce und Kroketten",
-    "Fischstäbchen mit Kartoffelpüree",
-    "Gebackener Dorsch mit Kartoffelsalat",
-    "Zanderfilet gebraten (Müllerin Art) mit Petersilienkartoffeln",
-    "Forelle blau mit zerlassener Butter und Kartoffeln",
-    "Karpfen gebacken mit Kartoffelsalat",
-    "Lachsfilet gebraten mit Bandnudeln und Spinat",
-    "Kaiserschmarrn mit Zwetschgenröster (als Hauptspeise)",
-    "Palatschinken mit Marillenmarmelade (3-4 Stück)",
-    "Topfenpalatschinken überbacken mit Vanillesauce",
-    "Marillenknödel mit Butterbröseln",
-    "Zwetschgenknödel mit Butterbröseln",
-    "Germknödel mit Mohnbutter",
-    "Mohnnudeln mit Apfelmus",
-    "Nussnudeln mit Kompott",
-    "Buchteln mit Vanillesauce",
-    "Reisauflauf mit Apfelstücken",
-    "Grießschmarrn mit Kompott",
-    "Scheiterhaufen mit Schneehaube",
-    "Milchrahmstrudel mit Vanillesauce",
-    "Überbackene Schinkenrollen mit Reis",
-    "Toast Langos (mit Schinken, Käse, Knoblauch)",
-    "Gefüllte Paprika mit Tomatensauce und Salzkartoffeln",
-    "Gefüllte Zucchini mit Hackfleisch und Käse überbacken",
-    "Musaka (Kartoffelauflauf mit Hackfleisch)",
-    "Shepherd's Pie (Hackfleisch mit Püreehaube)",
-    "Holzhackersteak (Nackensteak mit Zwiebeln und Speck)",
-    "Saltimbocca alla Romana (Kalb mit Rohschinken)",
-    "Involtini (Rindsrouladen italienisch gefüllt)",
-    "Ossobuco (geschmorte Beinscheibe) mit Polenta oder Risotto",
-    "Schweinsmedaillons in Pfeffersauce mit Kroketten",
-    "Schweinsmedaillons im Speckmantel mit Fisolen",
-    "Filet Wellington (Rind im Blätterteig - für Festtage)",
-    "Beef Stroganoff mit Spätzle",
-    "Steak (Rumpsteak) mit Kräuterbutter, Pommes und Fisolen",
-    "Zwiebelkuchen mit Speck (herzhaft)",
-    "Quiche Lorraine (Speck-Lauch-Torte)",
-    "Flammkuchen mit Speck und Zwiebeln",
-    "Pizzabrötchen (mit Schinken, Salami, Käse)",
-    "Selbstgemachte Pizza (Blech) mit Salami und Schinken",
-    "Pizza Calzone (gefüllt mit Schinken/Pilzen)",
-    "Toast Hawaii (Schinken, Ananas, Käse)",
-    "Strammer Max (Schwarzbrot, Schinken, Spiegelei)",
-    "Bauerntoast (Schwarzbrot, Speck, Zwiebel, Käse überbacken)",
-    "Käsespätzle mit Röstzwiebeln und grünem Salat",
-    "Eiernockerl mit grünem Salat",
-    "Spinat mit Röstkartoffeln und Spiegelei (und evtl. Fleischlaberl)",
-    "Linsen mit Semmelknödel und Speckstreifen",
-    "Dillfisolen mit Rahm und Augsburger Würstel",
-    "Faschierter Auflauf mit Kartoffelhaube",
-    "Krautrouladen (Fleischfüllung) mit Salzkartoffeln",
-    "Gefüllte Weinblätter mit Reis und Hackfleisch",
-    "Burritos mit Hackfleisch, Bohnen und Reis",
-    "Tacos mit Faschiertem",
-    "Burger (selbstgemacht) mit Pommes",
-    "Cheeseburger mit Bacon",
-    "Pulled Pork Burger mit Cole Slaw",
-    "Club Sandwich mit Hühnerfilet und Speck",
-    "Würstel im Schlafrock (Blätterteig)",
-    "Debreziner Langos",
-    "Pizzasuppe (mit Hackfleisch, Mais, Bohnen)",
-    "Käsesuppe mit Hackfleisch und Lauch",
-    "Soljanka (säuerliche Fleisch/Wurstsuppe)",
-    "Russisches Ei mit Brot (als kaltes Abendessen)",
-    "Wurstsalat (mit viel Wurst/Käse) und Gebäck",
-    "Schweizer Wurstsalat",
-    "Ochsenmaulsalat mit Kernöl und Brot",
-    "Essigwurst mit Zwiebeln und Brot",
-    "Brettljause (Speck, Geselchtes, Schweinsbraten kalt, Käse)",
-    "Schwammerlsauce mit Semmelknödel (und evtl. Fleisch dazu)",
-    "Eierschwammerlgulasch mit Knödel",
-    "Parasol gebacken (Schnitzel)",
-    "Blunzenradln gebraten mit Sauerkraut und Kartoffeln",
-    "Breinwurst mit Sauerkraut und Kartoffeln"
+    {
+        "name": "Altwiener Saftgulasch mit spetzle",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Augsburger mit Dillfisolen und Kartoffeln",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Backhendl mit Kartoffel-Vogerlsalat",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Bauern Cordon Bleu (gefüllt mit Speck, Zwiebel, Käse) mit Bratkartoffeln",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Bauerngeselchtes mit Grießknödel",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Bauerntoast (Schwarzbrot, Speck, Zwiebel, Käse überbacken)",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Beef Stroganoff mit Spätzle",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Berner Würstel mit Pommes Frites",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Beuschel mit Semmelknödel",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Blunzengröstl mit Kren und Sauerkraut",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Blunzenradln gebraten mit Sauerkraut und Kartoffeln",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Bohnengulasch mit Speck und Gebäck",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Bohnensuppe mit Selchspeck und Brot",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Brathendl im Ganzen mit Reis und Fülle",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Bratwürstel mit Sauerkraut und Rösterdäpfeln",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Breinwurst mit Sauerkraut und Kartoffeln",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Brettljause (Speck, Geselchtes, Schweinsbraten kalt, Käse)",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Buchteln mit Vanillesauce",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Burger (selbstgemacht) mit Pommes",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Burritos mit Hackfleisch, Bohnen und Reis",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Cevapcici mit Pommes, Zwiebel und Ajvar",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Champignonschnitzel mit Reis",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Cheeseburger mit Bacon",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Chili con Carne mit Weißbrot",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Club Sandwich mit Hühnerfilet und Speck",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Cordon Bleu mit Pommes Frites",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Debreziner Langos",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Dillfisolen mit Rahm und Augsburger Würstel",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Eiernockerl mit grünem Salat",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Eierschwammerlgulasch mit Knödel",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Ente gebraten mit Rotkraut und Kartoffelknödel",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Essigwurst mit Zwiebeln und Brot",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Esterhazy-Rostbraten mit Serviettenknödel",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Faschierter Auflauf mit Kartoffelhaube",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Faschierter Braten mit Kartoffelpüree und Röstzwiebeln",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Fiakergulasch (mit Würstel, Spiegelei und Gurkerl) mit Semmelknödel",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Filet Wellington (Rind im Blätterteig - für Festtage)",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Fischstäbchen mit Kartoffelpüree",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Flammkuchen mit Speck und Zwiebeln",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Fleischknödel mit Sauerkraut",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Fleischlaibchen (Frikadellen) mit Kartoffelpüree",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Forelle blau mit zerlassener Butter und Kartoffeln",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Gansl mit Rotkraut und Semmelknödel",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Gebackene Leber mit Sauce Tartare und Salat",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Gebackener Dorsch mit Kartoffelsalat",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Gebackener Leberkäse mit Kartoffelsalat und Sauce Tartare",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Gefüllte Hühnerbrust (Spinat/Schafkäse) mit Reis",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Gefüllte Paprika mit Tomatensauce und Salzkartoffeln",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Gefüllte Weinblätter mit Reis und Hackfleisch",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Gefüllte Zucchini mit Hackfleisch und Käse überbacken",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Germknödel mit Mohnbutter",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Geröstete Leber mit Petersilienkartoffeln",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Geschnetzeltes Zürcher Art mit Rösti",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Geselchtes mit Sauerkraut und Knödel",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Girardi-Rostbraten mit Kroketten",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Grammelknödel mit Sauerkraut",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Grenadiermarsch (Nudeln, Kartoffeln, Wurst)",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Grießschmarrn mit Kompott",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Grillteller (verschiedenes Fleisch) mit Pommes",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Gulaschsuppe mit Semmel (große Portion)",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Hascheehörnchen mit grünem Salat",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Hirschgulasch mit Spätzle und Preiselbeeren",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Holzhackersteak (Nackensteak mit Zwiebeln und Speck)",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Hühnerfilet in Kürbiskernpanier mit Salat",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Hühnergeschnetzeltes mit Champignons und Reis",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Hühnerkeulen aus dem Ofen mit Kartoffelspalten",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Innviertler Surspeckknödel mit Sauerkraut",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Involtini (Rindsrouladen italienisch gefüllt)",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Jägerschnitzel mit Teigwaren",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Kaiserschmarrn mit Zwetschgenröster (als Hauptspeise)",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Karpfen gebacken mit Kartoffelsalat",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Kartoffelgulasch mit Dürre oder Frankfurter",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Kesselgulasch",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Kotelett (Schwein) natur mit Reis und Erbsen",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Kotelett paniert mit Kartoffelsalat",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Krautfleckerl mit viel Pfeffer",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Krautrouladen (Fleischfüllung) mit Salzkartoffeln",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Krenfleisch mit Semmelknödel",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Käsekrainer mit Brot, Senf und Kren",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Käsespätzle mit Röstzwiebeln und grünem Salat",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Käsesuppe mit Hackfleisch und Lauch",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Kümmelbraten mit Serviettenknödel und warmem Krautsalat",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Lachsfilet gebraten mit Bandnudeln und Spinat",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Lasagne al Forno (mit viel Hackfleisch)",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Leberknödelsuppe (als Hauptspeise, 2-3 Knödel)",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Leberkäse (abgebraten) mit Spiegelei und Spinat",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Linsen mit Semmelknödel und Speckstreifen",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Linseneintopf mit Würstel und Speck",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Maccaroni-Auflauf mit Hackfleisch",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Marillenknödel mit Butterbröseln",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Milchrahmstrudel mit Vanillesauce",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Mohnnudeln mit Apfelmus",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Musaka (Kartoffelauflauf mit Hackfleisch)",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Münchner Schnitzel (Senf-Kren-Panier) mit Kartoffelsalat",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Naturschnitzel mit Reis und Saft",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Nussnudeln mit Kompott",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Ochsenmaulsalat mit Kernöl und Brot",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Ossobuco (geschmorte Beinscheibe) mit Polenta oder Risotto",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Palatschinken mit Marillenmarmelade (3-4 Stück)",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Paprikahendl mit Spätzle oder Nockerln",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Parasol gebacken (Schnitzel)",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Pariser Schnitzel (nur Ei-Mehl-Panier) mit Risi-Bisi",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Penne mit Schinken-Sahne-Sauce",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Piccata Milanese mit Spaghetti und Tomatensauce",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Pizza Calzone (gefüllt mit Schinken/Pilzen)",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Pizzabrötchen (mit Schinken, Salami, Käse)",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Pizzasuppe (mit Hackfleisch, Mais, Bohnen)",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Pljeskavica (gefülltes Hacksteak) mit Djuvec-Reis",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Pulled Pork Burger mit Cole Slaw",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Puten Cordon Bleu mit Reis",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Putenrollbraten mit Reis",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Putenstreifen auf Blattsalat mit Kernöl",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Quiche Lorraine (Speck-Lauch-Torte)",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Rahmschnitzel mit Spätzle",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Rehmedaillons mit Pilzsauce und Kroketten",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Reisauflauf mit Apfelstücken",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Reisfleisch mit Parmesan",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Rindsgulasch mit Kaisersemmel",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Rindsrouladen mit Hörnchen",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Ripperl (Spareribs) gebraten mit Bratkartoffeln und Saucen",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Russisches Ei mit Brot (als kaltes Abendessen)",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Saltimbocca alla Romana (Kalb mit Rohschinken)",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Scheiterhaufen mit Schneehaube",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Schinkenfleckerl überbacken",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Schopfbraten mit Bratkartoffeln",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Schulterscherzel mit Wurzelsauce und Semmelknödel",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Schwammerlsauce mit Semmelknödel (und evtl. Fleisch dazu)",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Schweinsbraten mit Semmelknödel und Sauerkraut",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Schweinsmedaillons im Speckmantel mit Fisolen",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Schweinsmedaillons in Pfeffersauce mit Kroketten",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Schweizer Wurstsalat",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Selbstgemachte Pizza (Blech) mit Salami und Schinken",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Selchfleischknödel mit warmem Krautsalat",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Serbisches Reisfleisch (scharf)",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Shepherd's Pie (Hackfleisch mit Püreehaube)",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Soljanka (säuerliche Fleisch/Wurstsuppe)",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Spaghetti Bolognese (fleischlastig)",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Spaghetti Carbonara (mit Speck und Sahne/Ei)",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Spinat mit Röstkartoffeln und Spiegelei (und evtl. Fleischlaberl)",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Steak (Rumpsteak) mit Kräuterbutter, Pommes und Fisolen",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Stefaniebraten (mit Ei und Gurkerl gefüllt) mit Püree",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Stelze gebraten mit Senf, Kren und Brot",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Strammer Max (Schwarzbrot, Schinken, Spiegelei)",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Surbraten mit Kartoffelknödel",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Surschnitzel mit Reis und Preiselbeeren",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Szegediner Krautfleisch mit Salzkartoffeln",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Tacos mit Faschiertem",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Tafelspitz mit Röstkartoffeln, Spinat und Semmelkren",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Teilsames mit Linsen und Semmelknödel",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Tiroler Gröstl mit Spiegelei und Krautsalat",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Toast Hawaii (Schinken, Ananas, Käse)",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Toast Langos (mit Schinken, Käse, Knoblauch)",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Topfenpalatschinken überbacken mit Vanillesauce",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Tortellini panna e prosciutto (Schinken-Rahm)",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Vanillerostbraten (mit Knoblauch) mit Nudeln",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Wiener Schnitzel vom Kalb mit Petersilienkartoffeln",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Wiener Schnitzel vom Schwein mit Kartoffelsalat",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Wildschweinbraten mit Rotkraut und Kroketten",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Wurstknödel mit grünem Salat",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Wurstnudeln mit Tomatensauce",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Wurstsalat (mit viel Wurst/Käse) und Gebäck",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Wurzelfleisch vom Schwein mit Kren und Salzkartoffeln",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Würstel im Schlafrock (Blätterteig)",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Zanderfilet gebraten (Müllerin Art) mit Petersilienkartoffeln",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Zigeunerschnitzel mit Pommes",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Zunge mit Erbsenpüree",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Zwetschgenknödel mit Butterbröseln",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Zwiebelkuchen mit Speck (herzhaft)",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Zwiebelrostbraten mit Braterdäpfeln",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    },
+    {
+        "name": "Überbackene Schinkenrollen mit Reis",
+        "Mama": true,
+        "Papa": true,
+        "David": true,
+        "Manuel": true
+    }
 ]
